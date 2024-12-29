@@ -1,0 +1,16 @@
+{
+    "name": "todo-backend",
+    "version": "1.0.0",
+    "description": "Backend for the Mini ToDo App using JSON Server",
+    "main": "server.js",
+    "scripts": {
+      "start": "json-server --watch db.json --port 3000"
+    },
+    "keywords": ["todo", "backend", "json-server", "mini-app"],
+    "author": "Chetna Jha",
+    "license": "MIT",
+    "dependencies": {
+      "json-server": "^0.17.1"
+    }
+  }
+  
